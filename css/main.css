@@ -2,13 +2,13 @@
 General
 **************************/
 body {
- font-family:'Raleway', sans-serif;  
+ font-family:'Raleway', sans-serif;
 }
 
 #wrapper {
   max-width:940px;
   margin: 0 auto;
-  padding: 0 5%;  
+  padding: 0 5%;
 }
 
 a {
@@ -16,12 +16,22 @@ a {
 }
 
 img {
-  max-width: 100%; 
+  max-width: 100%;
 }
 
 h3 {
   margin: 0 0 1em 0;
-  
+
+}
+
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.site-content {
+  flex: 1;
 }
 
 
@@ -99,8 +109,8 @@ footer {
 }
 
 .social-icon {
-  width: 20px;
-  height: 20px;
+  width: 32px;
+  height: 32px;
   margin: 0 5px;
 }
 
@@ -119,15 +129,15 @@ Page: Portfolio
  float: left;
  width: 45%;
  margin: 2.5%;
- background-color: #f5f5f5;
- color: #bdc3c7;
+ background-color: #DDBBDD;
+ color: #705779;
 }
 
 #gallery li a p {
  margin: 0;
  padding: 5%;
  font-size: 0.75em;
- color: #bdc3c7;
+ color: #705779;
 }
 
 
@@ -162,7 +172,7 @@ Page: Contact
   background-size: 20px 20px;
   padding: 0 0 0 30px;
   margin: 0 0 10px;
- } 
+ }
 
 .contact-info li.phone a {
   background-image: url('../img/phone.png')
@@ -172,8 +182,8 @@ Page: Contact
   background-image: url('../img/mail.png')
 }
 
-.contact-info li.facebook a {
-  background-image: url('../img/facebook.png')
+.contact-info li.linkedin a {
+  background-image: url('../img/linkedin.png')
 }
 
 /**************************
@@ -186,34 +196,33 @@ body {
   color:#999;
 }
 
-/* green header */
+/* purple header */
 header {
-  background:#6ab47b;
-  border-color:#599a68;
+  background:#7B6D8D;
+  border-color:#7F4C7F;
 }
 
 /* nav background on mobile*/
 nav {
-  background-color:#599a68;
+  background-color:#7F4C7F;
 }
 
 /* logo text */
 h1,h2 {
-  color: #fff;  
+  color: #fff;
 }
 
 /* links*/
 a {
- color:#6ab47b; 
+ color:#7B6D8D;
 }
 
 /* nav links */
 nav a, nav a:visited {
-  color:#fff
+  color:#fff;
 }
 
 /* selected nav link */
 nav a.selected, nav a:hover {
-  color: #32673f
+  color: #593F62;
 }
-
