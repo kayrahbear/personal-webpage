@@ -154,7 +154,7 @@ Page: Portfolio
     margin-top: 2em;
 }
 
-.treehouseLogo {
+.linkLogo {
     width: 45px;
     height: 45px;
     margin-right: 2em;
@@ -166,11 +166,10 @@ Page: Portfolio
     margin-top: 2em;
 }
 
-.codecademyLogo {
-    width: 55px;
-    height: 55px;
-    margin-right: 2em;
+.codecademyLink h3 {
+    margin-top: .75em;
 }
+
 
 
 
